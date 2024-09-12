@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+
+"""covid19_statistics.py: Analyze and classify COVID-19 data set."""
+
+__author__  = "Braian Plaku"
+__email__   = "braian.plaku@students.fhv.at"
+
 def normalize_data(n_cases, n_people, scale):
     # Calculate the number of cases per population
     norm_cases = []
