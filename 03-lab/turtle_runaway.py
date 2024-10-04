@@ -206,7 +206,7 @@ if __name__ == '__main__':
     screen.bgcolor('black')
 
     # play sound while generating background
-    winsound.PlaySound("arcade.wav", winsound.SND_ASYNC | winsound.SND_ALIAS)
+    winsound.PlaySound("turtle_runaway.wav", winsound.SND_ASYNC | winsound.SND_ALIAS)
     # create a space background effect
     create_pixelated_background(screen, pixel_count=40)
 
