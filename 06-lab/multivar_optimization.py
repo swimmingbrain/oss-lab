@@ -14,8 +14,8 @@ if __name__ == '__main__':
     
     # Define configuration
     x_init = [-1, 1]
-    learn_rate = 0.0001  # Experiment with 0.01, 0.005, and 0.0001
-    max_iter = 100000    # Experiment with 100, 1000, and 100000
+    learn_rate = 0.001  # Experiment with 0.01, 0.005, and 0.0001
+    max_iter = 10000    # Experiment with 100, 1000, and 100000
     min_tol = 1e-6
     
     # Gradient descent optimization
