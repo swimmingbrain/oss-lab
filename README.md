@@ -17,5 +17,5 @@ Below is a list of completed assignments:
 The project for this course can be found in the repository listed below.
 
 ![ChinguMate Logo](https://github.com/swimmingbrain/chingumat-e/blob/main/assets/logo/logo-neon.png)
-- [**chingumat•e:**](https://github.com/yourusername/chingumate) step, stomp, anywhere and anytime!
+- [**chingumat•e:**](https://github.com/swimmingbrain/chingumat-e) step, stomp, anywhere and anytime!
   - An open-source foot-controlled rhythm game: step, stomp, and groove your way to victory!
