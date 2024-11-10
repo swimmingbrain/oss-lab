@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     model = GradientBoostingClassifier(
         n_estimators=100,
-        learning_rate=0.5,
+        learning_rate=0.693,
         max_depth=3,
         min_samples_split=6,
         min_samples_leaf=1,
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     )
 
     cv_results = model_selection.cross_validate(
-        model, wdbc.data, wdbc.target, cv=3, return_train_score=True
+        model, wdbc.data, wdbc.target, cv=5, return_train_score=True
     )
 
     acc_train = np.mean(cv_results['train_score'])
