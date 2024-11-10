@@ -21,7 +21,7 @@ This assignment solution classifies breast cancer data from the Breast Cancer Wi
   - `random_state`: 2
 
 ## Results
-
+After executing the `wdbc_classification_cv.py` script, these are the results:
 - **Training Accuracy**: 1.000
 - **Test Accuracy**: 0.975
 - **Score**: 18, calculated using the given formula: `10 + 100 * (test_accuracy - 0.9)`
