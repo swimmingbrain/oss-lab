@@ -5,6 +5,8 @@ import numpy as np
 if __name__ == '__main__':
     wdbc = datasets.load_breast_cancer()
 
+    # Gradient Boosting Classifier as Decision Tree
+    # hyperparameters adjusted to achieve higher score
     model = GradientBoostingClassifier(
         n_estimators=100,
         learning_rate=0.693,
@@ -15,6 +17,7 @@ if __name__ == '__main__':
         random_state=2
     )
 
+    # 5 folds cross validation
     cv_results = model_selection.cross_validate(
         model, wdbc.data, wdbc.target, cv=5, return_train_score=True
     )
